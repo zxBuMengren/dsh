@@ -1,0 +1,21 @@
+{
+  "restart": "Restart dsh",
+  "confirmRestart": "Confirm restart? The page will go offline briefly, then redirect back",
+  "restarting": "Restarting dsh…",
+  "refreshPage": "Reload page",
+  "statusTitle": "dsh control",
+  "copyUrl": "Copy access URL",
+  "copied": "Copied",
+  "version": "Version",
+  "pid": "PID",
+  "uptime": "Uptime",
+  "startedAt": "Started",
+  "nodeVersion": "Node",
+  "url": "Access URL",
+  "confirmBtn": "Restart now",
+  "cancel": "Cancel",
+  "waitBridge": "Waiting for the server to come back…",
+  "bridgeTimeout": "Timed out waiting for the new URL: check the dsh console window for it",
+  "routeHint": "API not active: restart dsh web once to enable",
+  "close": "Close"
+}

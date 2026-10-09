@@ -1,0 +1,21 @@
+{
+  "restart": "重启 dsh",
+  "confirmRestart": "确认重启？页面会短暂失联，随后自动跳回",
+  "restarting": "正在重启 dsh…",
+  "refreshPage": "刷新页面",
+  "statusTitle": "dsh 控制台",
+  "copyUrl": "复制访问地址",
+  "copied": "已复制",
+  "version": "版本",
+  "pid": "进程",
+  "uptime": "已运行",
+  "startedAt": "启动时间",
+  "nodeVersion": "Node",
+  "url": "访问地址",
+  "confirmBtn": "确认重启",
+  "cancel": "取消",
+  "waitBridge": "等待服务器回来…",
+  "bridgeTimeout": "等新地址超时：请在弹出的 dsh 窗口里查看新的访问 URL",
+  "routeHint": "接口未激活：需重启一次 dsh web 后生效",
+  "close": "关闭"
+}

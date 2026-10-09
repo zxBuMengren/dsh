@@ -1,0 +1,3 @@
+- insert:
+    - id: dsh-ctl
+      name: '@local/dsh-ctl'
