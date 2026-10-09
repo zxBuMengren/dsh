@@ -1,0 +1,23 @@
+{
+  "name": "@local/git-viz",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Git visualization for the Harness Web UI: branch switcher chip + commit graph dialog, visible in every session",
+  "icon": "./icon.svg",
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./package.json": "./package.json",
+    "./locale/*.json": "./locale/*.json"
+  },
+  "dsh": {
+    "engines": { "dsh": ">=0.2.0-rc.2" },
+    "bundle": { "patch": "./cordis.patch.yml" },
+    "client": {
+      "platform": "web",
+      "immediately": true,
+      "inject": ["@deepseek-ai/dsh-client-locale"]
+    }
+  }
+}

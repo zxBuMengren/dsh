@@ -1,0 +1,8 @@
+# git-viz bundle patch: inserts the dual-face plugin row into the web
+# profile roster. The node half (exports ".") runs in the host process
+# (git service + /gitviz/* HTTP routes); the dsh.client declaration makes
+# the browser half (exports "./client") load in the web GUI.
+- insert:
+    - id: git-viz
+      name: '@local/git-viz'
+      config: {}
